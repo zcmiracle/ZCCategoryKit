@@ -1,5 +1,5 @@
 PODS:
-  - ZCCategoryKit (0.2.2)
+  - ZCCategoryKit (0.3.5)
 
 DEPENDENCIES:
   - ZCCategoryKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZCCategoryKit: 96dfd570ae28906e1e90b87a527801586d92035e
+  ZCCategoryKit: be703344302e7297e77e9cd86ce7e55f8f6c0ec2
 
 PODFILE CHECKSUM: 98ec06bca67832d489484c540500ecb78161cac0
 

@@ -1,6 +1,6 @@
 {
   "name": "ZCCategoryKit",
-  "version": "0.2.2",
+  "version": "0.3.5",
   "summary": "A short description of ZCCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zcmiracle/ZCCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zcmiracle/ZCCategoryKit.git",
-    "tag": "0.2.2"
+    "tag": "0.3.5"
   },
   "platforms": {
     "ios": "8.0"
