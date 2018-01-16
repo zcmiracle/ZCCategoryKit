@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		072462ACF8816B71B543D1355CC37580 /* Pods-ZCCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1053F82AC96FA123700459066BC0207 /* Pods-ZCCategoryKit_Example-dummy.m */; };
+		0C1AD8F37D81BFB9B98D21032CC4A411 /* NSDate+ZC.h in Headers */ = {isa = PBXBuildFile; fileRef = D15398E4A4DEAEA677E74C8BBF0D7838 /* NSDate+ZC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C8DCE9595D4283711C7AC631F79D01D /* Pods-ZCCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7488A20B69F21607B1F247A76B483225 /* Pods-ZCCategoryKit_Tests-dummy.m */; };
 		2E53D60085D4C9D072EB2A86BA65894C /* Pods-ZCCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8920C4D5D0C00C3EA420E27CA15F4A /* Pods-ZCCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		309B401A585BE4617D0EB49FD786F6AE /* ZCCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB74BA58AFE0E43B5C4CF55247E9CCA /* ZCCategoryKit-dummy.m */; };
-		5BDF91F8DD178660FD22BF69F30E6F81 /* ZCCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBF809B6B6A99E70459CA0C028C0F15 /* ZCCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A42748FA5465BBBFC324815823284F1 /* Pods-ZCCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B475F705EED072A0284691E9CAD56F78 /* Pods-ZCCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		827DBC7AA4CD6E7DFBBB3233E824A872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8789B46678DCEABE1580963A8568F10E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		95A365B6F39C94B42B67D227527B8595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ED50E72A6728A9C20635B2333C1F30A7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E749F5C829DF6EAEBA966BC8D8B150 /* ReplaceMe.m */; };
+		95B67E047261FD43D552EBC2D9C04710 /* ZCCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D176A950DA852866FCDA0D134194422B /* ZCCategoryKit-dummy.m */; };
+		B1CA6E8D5D8283DBE7A8C0C064DEBADD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185F5C765F0070A0F0FC1FDB97816C1 /* ReplaceMe.m */; };
+		D21A97B5C20D20F4642A26394D2B9879 /* ZCCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7227845414E545F294CE37E9D568B0C1 /* ZCCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6B23CB85CA90627F09D93690088BC1 /* NSDate+ZC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6E81947482F7BF7CFF2EA596D8E22 /* NSDate+ZC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,34 +34,36 @@
 /* Begin PBXFileReference section */
 		02E204BDD67934F2AA78DDA73F2D5D0F /* Pods-ZCCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F62777D7A0C075F6A0E730E1A7B7043 /* Pods-ZCCategoryKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCCategoryKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		20E749F5C829DF6EAEBA966BC8D8B150 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZCCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		29D0FF039E96CE516057014F3EB61107 /* ZCCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCategoryKit.xcconfig; sourceTree = "<group>"; };
 		2DAD107134257ADD795F094FA6D2C4C6 /* Pods-ZCCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3185F5C765F0070A0F0FC1FDB97816C1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZCCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		32E83FEA7284385BB2F48C7E3B4BFB14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		465BC329659B1288957B4B9600EBE2E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		477B581C97AA7E9116508D2C0F1E82DC /* Pods_ZCCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCCategoryKit_Tests.framework; path = "Pods-ZCCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E485D866436B003F3AAF15BF034BF9D /* ZCCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCategoryKit.xcconfig; sourceTree = "<group>"; };
 		53D9F43780D0A1A92B4C0838FD7CDFBA /* Pods-ZCCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58A6E81947482F7BF7CFF2EA596D8E22 /* NSDate+ZC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ZC.m"; path = "ZCCategoryKit/Classes/NSDate+ZC.m"; sourceTree = "<group>"; };
 		5935042E8B5C2F6532A544BC7C315268 /* Pods_ZCCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCCategoryKit_Example.framework; path = "Pods-ZCCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		674BD8733210E2FD5CEA724A606FBA9B /* Pods-ZCCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZCCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6A8920C4D5D0C00C3EA420E27CA15F4A /* Pods-ZCCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7227845414E545F294CE37E9D568B0C1 /* ZCCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		7488A20B69F21607B1F247A76B483225 /* Pods-ZCCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		7704145A25E8435D40BFBD23E9D4219F /* Pods-ZCCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		80675FD45F1FF5AA62116F6CCF2192C3 /* Pods-ZCCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		819425016AD781CF1CDCA5DA1D03739A /* ZCCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCCategoryKit.framework; path = ZCCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9682D4CD4024719800DCCF69ABF4DF6A /* ZCCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		9ECC284BEE7AADC0DAD9DE2669009735 /* Pods-ZCCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZCCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
 		B475F705EED072A0284691E9CAD56F78 /* Pods-ZCCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		BB37F3D71B93904F05E0190AE94F8DD5 /* Pods-ZCCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BEAD45DE7D766831C0F18EED4A705869 /* ZCCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZCCategoryKit.modulemap; sourceTree = "<group>"; };
 		BFF64A4840EFF806E462F92D7D8CE575 /* Pods-ZCCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1053F82AC96FA123700459066BC0207 /* Pods-ZCCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		CCB74BA58AFE0E43B5C4CF55247E9CCA /* ZCCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		CA813BF6811BFA8D760BC465FE820AFC /* ZCCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		CB355D5287C9B3F76489EC6873301D45 /* ZCCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZCCategoryKit.modulemap; sourceTree = "<group>"; };
 		D0949CF7844CD6125C07B98D45E81196 /* Pods-ZCCategoryKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCCategoryKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D15398E4A4DEAEA677E74C8BBF0D7838 /* NSDate+ZC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ZC.h"; path = "ZCCategoryKit/Classes/NSDate+ZC.h"; sourceTree = "<group>"; };
+		D176A950DA852866FCDA0D134194422B /* ZCCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		D3C4316B77E86AE6EA94ADDFF7D51F0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC41CB63A50A6D207DDA75C3FC303838 /* Pods-ZCCategoryKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCCategoryKit_Example-resources.sh"; sourceTree = "<group>"; };
-		EDBF809B6B6A99E70459CA0C028C0F15 /* ZCCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		F77608211CB11E7B43BCB6480F08CF73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB84502C38A4CA3DFF940811D3E9F997 /* Pods-ZCCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FF0296071CA0BBCAD32DF75F29721046 /* Pods-ZCCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,11 +96,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A31DC43AB4CD7C4FC2EC643BCB4F794 /* ZCCategoryKit */ = {
+		0C4361D2DD7F21B0BD898ECBBE64ED69 /* ZCCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				20E749F5C829DF6EAEBA966BC8D8B150 /* ReplaceMe.m */,
-				D298DE386D4CA3FC9AB97902ED6EEF30 /* Support Files */,
+				D15398E4A4DEAEA677E74C8BBF0D7838 /* NSDate+ZC.h */,
+				58A6E81947482F7BF7CFF2EA596D8E22 /* NSDate+ZC.m */,
+				3185F5C765F0070A0F0FC1FDB97816C1 /* ReplaceMe.m */,
+				8BF043A4ED87693235AFE93E2F43F847 /* Support Files */,
 			);
 			name = ZCCategoryKit;
 			path = ../..;
@@ -111,11 +117,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		566D213B4758006D1B4B5AF5C8BED08D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C4361D2DD7F21B0BD898ECBBE64ED69 /* ZCCategoryKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BABF10D96BC745C2015FA0631E2D3756 /* Development Pods */,
+				566D213B4758006D1B4B5AF5C8BED08D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C8178F72161BD5D1F3A201ED2F98E1D3 /* Products */,
 				4E4C7F70E22CD7D1C57BF9CF2999AE5F /* Targets Support Files */,
@@ -140,6 +154,20 @@
 			path = "Target Support Files/Pods-ZCCategoryKit_Tests";
 			sourceTree = "<group>";
 		};
+		8BF043A4ED87693235AFE93E2F43F847 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77608211CB11E7B43BCB6480F08CF73 /* Info.plist */,
+				CB355D5287C9B3F76489EC6873301D45 /* ZCCategoryKit.modulemap */,
+				29D0FF039E96CE516057014F3EB61107 /* ZCCategoryKit.xcconfig */,
+				D176A950DA852866FCDA0D134194422B /* ZCCategoryKit-dummy.m */,
+				CA813BF6811BFA8D760BC465FE820AFC /* ZCCategoryKit-prefix.pch */,
+				7227845414E545F294CE37E9D568B0C1 /* ZCCategoryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZCCategoryKit";
+			sourceTree = "<group>";
+		};
 		96BB975D29060916D829BCAED8A2D681 /* Pods-ZCCategoryKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,14 +184,6 @@
 			);
 			name = "Pods-ZCCategoryKit_Example";
 			path = "Target Support Files/Pods-ZCCategoryKit_Example";
-			sourceTree = "<group>";
-		};
-		BABF10D96BC745C2015FA0631E2D3756 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2A31DC43AB4CD7C4FC2EC643BCB4F794 /* ZCCategoryKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -184,20 +204,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D298DE386D4CA3FC9AB97902ED6EEF30 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				465BC329659B1288957B4B9600EBE2E7 /* Info.plist */,
-				BEAD45DE7D766831C0F18EED4A705869 /* ZCCategoryKit.modulemap */,
-				4E485D866436B003F3AAF15BF034BF9D /* ZCCategoryKit.xcconfig */,
-				CCB74BA58AFE0E43B5C4CF55247E9CCA /* ZCCategoryKit-dummy.m */,
-				9682D4CD4024719800DCCF69ABF4DF6A /* ZCCategoryKit-prefix.pch */,
-				EDBF809B6B6A99E70459CA0C028C0F15 /* ZCCategoryKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZCCategoryKit";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,11 +215,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D8A02544B86F926838DE94B6401A21DA /* Headers */ = {
+		2375B25CBA43D44503F70007B491295C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BDF91F8DD178660FD22BF69F30E6F81 /* ZCCategoryKit-umbrella.h in Headers */,
+				0C1AD8F37D81BFB9B98D21032CC4A411 /* NSDate+ZC.h in Headers */,
+				D21A97B5C20D20F4642A26394D2B9879 /* ZCCategoryKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +282,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A64CC46D3F15A98DB40BB8C080A16DC /* Build configuration list for PBXNativeTarget "ZCCategoryKit" */;
 			buildPhases = (
-				70D249500E13221898F60C1FB795749B /* Sources */,
+				CA59116C4ADBC2A063A857FAE8F99C49 /* Sources */,
 				2BEBE388E24484141AE7EE280624A704 /* Frameworks */,
-				D8A02544B86F926838DE94B6401A21DA /* Headers */,
+				2375B25CBA43D44503F70007B491295C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,20 +332,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70D249500E13221898F60C1FB795749B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED50E72A6728A9C20635B2333C1F30A7 /* ReplaceMe.m in Sources */,
-				309B401A585BE4617D0EB49FD786F6AE /* ZCCategoryKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CD333471DA6694E21F27E00C1AD44D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				072462ACF8816B71B543D1355CC37580 /* Pods-ZCCategoryKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA59116C4ADBC2A063A857FAE8F99C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6B23CB85CA90627F09D93690088BC1 /* NSDate+ZC.m in Sources */,
+				B1CA6E8D5D8283DBE7A8C0C064DEBADD /* ReplaceMe.m in Sources */,
+				95B67E047261FD43D552EBC2D9C04710 /* ZCCategoryKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +364,7 @@
 /* Begin XCBuildConfiguration section */
 		08C9FF51203B738BE8270B006628D6DB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E485D866436B003F3AAF15BF034BF9D /* ZCCategoryKit.xcconfig */;
+			baseConfigurationReference = 29D0FF039E96CE516057014F3EB61107 /* ZCCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -566,7 +574,7 @@
 		};
 		D151CB9E1E28642D04F0DD13A0008C00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E485D866436B003F3AAF15BF034BF9D /* ZCCategoryKit.xcconfig */;
+			baseConfigurationReference = 29D0FF039E96CE516057014F3EB61107 /* ZCCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
