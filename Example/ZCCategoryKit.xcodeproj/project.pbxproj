@@ -24,6 +24,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B39F3C6D200EFE880069F13F /* ZCCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39F3C6C200EFE880069F13F /* ZCCategoryViewController.m */; };
+		B39F3C70200EFE930069F13F /* ZCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B39F3C6F200EFE930069F13F /* ZCModel.m */; };
+		B39F3C73200EFE9D0069F13F /* ZCView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39F3C72200EFE9D0069F13F /* ZCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,14 @@
 		77C9B1964ABAC8CA2C38D564 /* Pods_ZCCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		976F372C89199C3E8A7D53E2 /* Pods-ZCCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZCCategoryKit_Tests/Pods-ZCCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B39F3C69200EFE530069F13F /* NSDate+ZC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZC.h"; sourceTree = "<group>"; };
+		B39F3C6A200EFE530069F13F /* NSDate+ZC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZC.m"; sourceTree = "<group>"; };
+		B39F3C6B200EFE880069F13F /* ZCCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCCategoryViewController.h; sourceTree = "<group>"; };
+		B39F3C6C200EFE880069F13F /* ZCCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCCategoryViewController.m; sourceTree = "<group>"; };
+		B39F3C6E200EFE930069F13F /* ZCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCModel.h; sourceTree = "<group>"; };
+		B39F3C6F200EFE930069F13F /* ZCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCModel.m; sourceTree = "<group>"; };
+		B39F3C71200EFE9D0069F13F /* ZCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCView.h; sourceTree = "<group>"; };
+		B39F3C72200EFE9D0069F13F /* ZCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCView.m; sourceTree = "<group>"; };
 		C5526BC7FC63CDB884076069 /* Pods-ZCCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZCCategoryKit_Example/Pods-ZCCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EDC75B1EF254B6CBD521309B /* ZCCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZCCategoryKit.podspec; path = ../ZCCategoryKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +143,10 @@
 		6003F593195388D20070C39A /* Example for ZCCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
+				B39F3C68200EFE530069F13F /* Category */,
+				B39F3C67200EFE530069F13F /* Controller */,
+				B39F3C65200EFE520069F13F /* Model */,
+				B39F3C66200EFE520069F13F /* View */,
 				6003F59C195388D20070C39A /* ZCAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +209,46 @@
 				976F372C89199C3E8A7D53E2 /* Pods-ZCCategoryKit_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B39F3C65200EFE520069F13F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B39F3C6E200EFE930069F13F /* ZCModel.h */,
+				B39F3C6F200EFE930069F13F /* ZCModel.m */,
+			);
+			name = Model;
+			path = ../../ZCCategoryKit/Classes/Model;
+			sourceTree = "<group>";
+		};
+		B39F3C66200EFE520069F13F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B39F3C71200EFE9D0069F13F /* ZCView.h */,
+				B39F3C72200EFE9D0069F13F /* ZCView.m */,
+			);
+			name = View;
+			path = ../../ZCCategoryKit/Classes/View;
+			sourceTree = "<group>";
+		};
+		B39F3C67200EFE530069F13F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B39F3C6B200EFE880069F13F /* ZCCategoryViewController.h */,
+				B39F3C6C200EFE880069F13F /* ZCCategoryViewController.m */,
+			);
+			name = Controller;
+			path = ../../ZCCategoryKit/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		B39F3C68200EFE530069F13F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B39F3C69200EFE530069F13F /* NSDate+ZC.h */,
+				B39F3C6A200EFE530069F13F /* NSDate+ZC.m */,
+			);
+			name = Category;
+			path = ../../ZCCategoryKit/Classes/Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,8 +459,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZCAppDelegate.m in Sources */,
+				B39F3C70200EFE930069F13F /* ZCModel.m in Sources */,
 				6003F5A7195388D20070C39A /* ZCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B39F3C6D200EFE880069F13F /* ZCCategoryViewController.m in Sources */,
+				B39F3C73200EFE9D0069F13F /* ZCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

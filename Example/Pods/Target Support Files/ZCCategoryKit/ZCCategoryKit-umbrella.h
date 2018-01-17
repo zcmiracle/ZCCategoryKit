@@ -11,6 +11,9 @@
 #endif
 
 #import "NSDate+ZC.h"
+#import "ZCCategoryViewController.h"
+#import "ZCModel.h"
+#import "ZCView.h"
 
 FOUNDATION_EXPORT double ZCCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZCCategoryKitVersionString[];

@@ -7,6 +7,7 @@
 //
 
 #import "ZCViewController.h"
+#import "ZCCategoryViewController.h"
 
 @interface ZCViewController ()
 
@@ -17,13 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
-- (void)didReceiveMemoryWarning
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    ZCCategoryViewController *vc = [[ZCCategoryViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
